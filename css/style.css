@@ -1,0 +1,63 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #cea986;
+}
+
+header {
+    border-bottom: 1px solid #222222;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    color:rgb(255, 255, 255)
+}
+
+.bienvenida {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.col {
+    border: 1px solid #222222;
+}
+
+.col-8 {
+    border: 1px solid #222222;
+}
+
+.col-4 img {
+    height: 200px;
+}
+
+.info {
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
