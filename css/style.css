@@ -1,10 +1,12 @@
 * {
     margin: 0%;
     padding: 0%;
+    flex-wrap: wrap;
 }
 
 body {
     background-color: #cea986;
+
 }
 
 header {
@@ -40,6 +42,7 @@ nav ul li a:hover {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
+    justify-content: c;
 }
 
 .col {
@@ -63,6 +66,7 @@ nav ul li a:hover {
 
 footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border-top: solid 2px #222222;
