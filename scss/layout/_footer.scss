@@ -1,0 +1,11 @@
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	border-top: solid 2px #222222;
+	img {
+		width: 30px;
+		padding: 5px;
+	}
+}

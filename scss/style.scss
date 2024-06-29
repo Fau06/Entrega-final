@@ -3,81 +3,8 @@ $color_2: rgb(255, 255, 255);
 $font-family_1: Arial, Helvetica, sans-serif;
 $background-color_1: #cea986;
 
-* {
-	margin: 0%;
-	padding: 0%;
-	flex-wrap: wrap;
-}
-body {
-	background-color: $background-color_1;
-}
-header {
-	border-bottom: 1px solid #222222;
-	display: flex;
-	justify-content: space-between;
-	padding-top: 10px;
-	justify-content: center;
-}
-nav {
-	ul {
-		display: flex;
-		list-style-type: none;
-		li {
-			margin: 5px;
-			a {
-				text-decoration: none;
-				color: $color_1;
-				font-family: $font-family_1;
-				font-size: 1.4rem;
-				transition: 1s;
-				&:hover {
-					color: $color_2;
-				}
-			}
-		}
-	}
-}
-.bienvenida {
-	padding: 10px;
-	font-family: $font-family_1;
-	font-size: 1.2rem;
-	justify-content: center;
-}
-.col {
-	border: 1px solid #222222;
-}
-.col-8 {
-	border: 1px solid #222222;
-}
-.col-4 {
-	img {
-		height: 200px;
-	}
-}
-.info {
-	padding: 10px;
-	text-align: center;
-	font-family: $font-family_1;
-	font-size: 1.2rem;
-}
-.cuadros {
-	font-family: $font-family_1;
-	padding: 10px;
-	h2 {
-		text-align: center;
-	}
-}
-.impct-amb {
-	font-family: $font-family_1;
-}
-footer {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	border-top: solid 2px #222222;
-	img {
-		width: 30px;
-		padding: 5px;
-	}
-}
+@import "base/reset";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/section-principal";
+@import "media-queries/media-desktop";

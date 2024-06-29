@@ -1,0 +1,26 @@
+header {
+	border-bottom: 1px solid #222222;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+	justify-content: center;
+}
+nav {
+	ul {
+		display: flex;
+		list-style-type: none;
+		li {
+			margin: 5px;
+			a {
+				text-decoration: none;
+				color: $color_1;
+				font-family: $font-family_1;
+				font-size: 1.4rem;
+				transition: 1s;
+				&:hover {
+					color: $color_2;
+				}
+			}
+		}
+	}
+}
