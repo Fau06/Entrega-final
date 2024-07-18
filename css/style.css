@@ -82,16 +82,23 @@ footer img {
   text-align: center;
 }
 
-.sabores {
+.text-box {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   border: 1px solid black;
   border-radius: 1px;
-  margin: 150px auto;
+  margin: 20px auto;
   width: 70%;
 }
 
-@media only screen and (min-width: 414px) {
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 414px) {
   header {
     display: none;
   }
