@@ -28,6 +28,12 @@
 		text-align: center;
 	}
 }
-.impct-amb {
+
+.sabores {
 	font-family: $font-family_1;
-}
+    display: flex;
+	border: 1px solid black;
+	border-radius: 1px;
+	margin: 150px auto;
+    width: 70%;
+} 

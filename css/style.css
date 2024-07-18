@@ -82,8 +82,19 @@ footer img {
   text-align: center;
 }
 
-.impct-amb {
+.sabores {
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 1px;
+  margin: 150px auto;
+  width: 70%;
+}
+
+@media only screen and (min-width: 414px) {
+  header {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
