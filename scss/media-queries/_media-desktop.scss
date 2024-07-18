@@ -4,3 +4,12 @@
          display: none; 
     }
 }
+@media screen and (max-width: 1000px) {
+    .card {
+      width: 40%;
+    }
+  }
+  .heading {
+    padding: 20px;
+    font-size: 30px;
+  }
